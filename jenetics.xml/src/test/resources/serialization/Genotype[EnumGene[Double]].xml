@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genotype length="5" ngenes="75">
+    <permutation-chromosome length="15">
+        <valid-alleles type="java.lang.Double">
+            <allele>0.5625665321191613</allele>
+            <allele>0.7771003761758372</allele>
+            <allele>0.9793553406453307</allele>
+            <allele>0.33864905958853286</allele>
+            <allele>0.1687492591086811</allele>
+            <allele>0.3241564942343277</allele>
+            <allele>0.6219627543205388</allele>
+            <allele>0.5163643158750736</allele>
+            <allele>0.5157651636307375</allele>
+            <allele>0.3463020910898771</allele>
+            <allele>0.5319363154643066</allele>
+            <allele>0.28822535293827756</allele>
+            <allele>0.9270756024618048</allele>
+            <allele>0.6126820188687803</allele>
+            <allele>0.32817643659064377</allele>
+        </valid-alleles>
+        <order>6 13 4 12 8 14 7 2 11 5 3 0 9 10 1</order>
+    </permutation-chromosome>
+    <permutation-chromosome length="15">
+        <valid-alleles type="java.lang.Double">
+            <allele>0.14304902183779822</allele>
+            <allele>0.30294963347526316</allele>
+            <allele>0.12774063183104867</allele>
+            <allele>0.3922652416171595</allele>
+            <allele>0.20021706561790675</allele>
+            <allele>0.889434504245966</allele>
+            <allele>0.3106197815521088</allele>
+            <allele>0.33130025840313493</allele>
+            <allele>0.8242682798736768</allele>
+            <allele>0.7734261079965913</allele>
+            <allele>0.422631975514979</allele>
+            <allele>0.20919166556304536</allele>
+            <allele>0.2915074964738713</allele>
+            <allele>0.4704551415835486</allele>
+            <allele>0.13792869357814463</allele>
+        </valid-alleles>
+        <order>4 2 0 5 3 1 6 10 9 7 8 11 13 14 12</order>
+    </permutation-chromosome>
+    <permutation-chromosome length="15">
+        <valid-alleles type="java.lang.Double">
+            <allele>0.5787437729037445</allele>
+            <allele>0.7983802966185262</allele>
+            <allele>0.3592338200223225</allele>
+            <allele>0.3046858183479054</allele>
+            <allele>0.3191093296335088</allele>
+            <allele>0.746328670823711</allele>
+            <allele>0.6896207208381833</allele>
+            <allele>0.20813067654422446</allele>
+            <allele>0.4819344411255898</allele>
+            <allele>0.5746544890775834</allele>
+            <allele>0.6763194697776787</allele>
+            <allele>0.6119545898970447</allele>
+            <allele>0.6397886883266187</allele>
+            <allele>0.7525831048175413</allele>
+            <allele>0.35984732700033206</allele>
+        </valid-alleles>
+        <order>11 0 9 13 10 1 8 3 7 12 5 6 2 4 14</order>
+    </permutation-chromosome>
+    <permutation-chromosome length="15">
+        <valid-alleles type="java.lang.Double">
+            <allele>0.34240592304272943</allele>
+            <allele>0.5802178413545356</allele>
+            <allele>0.7771170918319862</allele>
+            <allele>0.12187386771857489</allele>
+            <allele>0.7282950758340777</allele>
+            <allele>0.4986261839930929</allele>
+            <allele>0.7820581079445534</allele>
+            <allele>0.8263913793170772</allele>
+            <allele>0.8122553579533891</allele>
+            <allele>0.4164618264269687</allele>
+            <allele>0.8456842168010018</allele>
+            <allele>0.5836903476291898</allele>
+            <allele>0.5552851822924671</allele>
+            <allele>0.2557545068584247</allele>
+            <allele>0.9315421293010596</allele>
+        </valid-alleles>
+        <order>14 5 3 2 1 6 8 13 7 9 4 0 11 12 10</order>
+    </permutation-chromosome>
+    <permutation-chromosome length="15">
+        <valid-alleles type="java.lang.Double">
+            <allele>0.7638660966679881</allele>
+            <allele>0.07718877929997525</allele>
+            <allele>0.24029287727155102</allele>
+            <allele>0.01809032612786743</allele>
+            <allele>0.47132860542680644</allele>
+            <allele>0.12443716667956561</allele>
+            <allele>0.1769113782799442</allele>
+            <allele>0.19882927174010034</allele>
+            <allele>0.5961398650321303</allele>
+            <allele>0.5284448253804489</allele>
+            <allele>0.042745216179667866</allele>
+            <allele>0.9696865032924129</allele>
+            <allele>0.8894118585824682</allele>
+            <allele>0.6955678864613996</allele>
+            <allele>0.9987506014215964</allele>
+        </valid-alleles>
+        <order>13 1 11 6 5 14 9 0 4 7 12 8 10 3 2</order>
+    </permutation-chromosome>
+</genotype>

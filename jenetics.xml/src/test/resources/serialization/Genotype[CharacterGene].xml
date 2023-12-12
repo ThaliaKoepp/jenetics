@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genotype length="5" ngenes="100">
+    <character-chromosome length="20">
+        <valid-alleles> !"#$%&amp;'()*+,-./0123456789:;&lt;=&gt;?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~</valid-alleles>
+        <alleles>f[mB%`BM;o@Dl5l8e*o%</alleles>
+    </character-chromosome>
+    <character-chromosome length="20">
+        <valid-alleles> !"#$%&amp;'()*+,-./0123456789:;&lt;=&gt;?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~</valid-alleles>
+        <alleles>7D8uQpI/$ZO~xIOOV:]N</alleles>
+    </character-chromosome>
+    <character-chromosome length="20">
+        <valid-alleles> !"#$%&amp;'()*+,-./0123456789:;&lt;=&gt;?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~</valid-alleles>
+        <alleles>`^%K97r}o.,(J&amp;Z_:3^J</alleles>
+    </character-chromosome>
+    <character-chromosome length="20">
+        <valid-alleles> !"#$%&amp;'()*+,-./0123456789:;&lt;=&gt;?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~</valid-alleles>
+        <alleles>0tv#14SXW..FVoY9VV0S</alleles>
+    </character-chromosome>
+    <character-chromosome length="20">
+        <valid-alleles> !"#$%&amp;'()*+,-./0123456789:;&lt;=&gt;?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~</valid-alleles>
+        <alleles>5)%+YsN:dA=ObJ(v\H!4</alleles>
+    </character-chromosome>
+</genotype>

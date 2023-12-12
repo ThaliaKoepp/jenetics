@@ -1,0 +1,95 @@
+/*
+ * Java Genetic Algorithm Library (@__identifier__@).
+ * Copyright (c) @__year__@ Franz Wilhelmstötter
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ * Author:
+ *    Franz Wilhelmstötter (franz.wilhelmstoetter@gmail.com)
+ */
+package io.jenetics;
+
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+import io.jenetics.util.ISeq;
+import io.jenetics.util.ObjectTester;
+
+/**
+ * @author <a href="mailto:franz.wilhelmstoetter@gmail.com">Franz Wilhelmstötter</a>
+ */
+public abstract class ChromosomeTester<G extends Gene<?, G>>
+	extends ObjectTester<Chromosome<G>>
+{
+
+	@Test
+	public void getGene() {
+		final Chromosome<G> c = factory().newInstance();
+		Assert.assertEquals(c.gene(), c.get(0));
+		Assert.assertEquals(c.get(0), c.gene());
+	}
+
+	@Test
+	public void newInstanceFromArray() {
+		for (int i = 0; i < 100; ++i) {
+			final Chromosome<G> c1 = factory().newInstance();
+			final ISeq<G> genes = ISeq.of(c1);
+			final Chromosome<G> c2 = c1.newInstance(genes);
+
+			Assert.assertEquals(c2, c1);
+			Assert.assertEquals(c1, c2);
+		}
+	}
+
+	@Test(expectedExceptions = NullPointerException.class)
+	public void newInstanceFromNullArray() {
+		final Chromosome<G> c = factory().newInstance();
+		c.newInstance(null);
+	}
+
+	@Test
+	public void newInstanceFromRandom() {
+		for (int i = 0; i < 100; ++i) {
+			final Chromosome<G> c1 = factory().newInstance();
+			final Chromosome<G> c2 = c1.newInstance();
+
+			Assert.assertEquals(c2.length(), c1.length());
+			if (c1.equals(c2)) {
+				Assert.assertEquals(ISeq.of(c2), ISeq.of(c1));
+			}
+		}
+	}
+
+	@Test
+	public void iterator() {
+		final Chromosome<G> c = factory().newInstance();
+		final ISeq<G> a = ISeq.of(c);
+
+		int index = 0;
+		for (G gene : c) {
+			Assert.assertEquals(gene, a.get(index));
+			Assert.assertEquals(gene, c.get(index));
+
+			++index;
+		}
+	}
+
+	@Test
+	public void length() {
+		final Chromosome<G> c = factory().newInstance();
+		final ISeq<G> a = ISeq.of(c);
+
+		Assert.assertEquals(c.length(), a.length());
+	}
+
+}
